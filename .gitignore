@@ -1,0 +1,9 @@
+# Directories
+Include/
+Lib/
+Scripts/
+tcl/
+.vscode/
+
+# Files
+/roll_extractor.code-workspace
