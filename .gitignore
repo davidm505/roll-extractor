@@ -3,6 +3,11 @@ Include/
 Lib/
 Scripts/
 tcl/
+bin/
+include/
+lib/
+local/
+share/
 .vscode/
 
 # Files
