@@ -11,6 +11,11 @@ test = data.values.tolist()
 
 
 def roll_curator():
+    """[extracts the rolls from CSV and appends to list]
+    
+    Returns:
+        [list] -- [contains first four digits of the first column]
+    """
 
     roll_list = ['START']
 
@@ -24,5 +29,3 @@ def roll_curator():
     return roll_list
 
 rolls = roll_curator()
-        
-
