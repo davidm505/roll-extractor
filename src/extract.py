@@ -12,7 +12,7 @@ test = data.values.tolist()
 
 def roll_curator():
     """[extracts the rolls from CSV and appends to list]
-    
+
     Returns:
         [list] -- [contains first four digits of the first column]
     """
@@ -34,7 +34,7 @@ rolls = roll_curator()
 
 def cr_extractor(lst):
     """[summary]
-    
+
     Arguments:
         lst {list} -- [description]
     """
@@ -63,7 +63,7 @@ def sr_curator():
     for line in col_5_lst:
         for item in line:
             path_lst.append(item)
-    
+
     smregex = re.compile(r'sound_masters', re.IGNORECASE)
     rcounter = 0
     sm_arry = []
@@ -71,7 +71,7 @@ def sr_curator():
         if smregex.search(row):
             sm_arry.append(rcounter)
         rcounter += 1
-    
+
 
     i = 0
     sr_rolls = []
